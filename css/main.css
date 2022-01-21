@@ -14,6 +14,11 @@ body{
     width: 600px;
     float: left;
 }
+.triple-box {
+    width: 1150px;
+    margin: auto;
+
+}
 
 /*****HEADER*****/
 header {
@@ -49,13 +54,13 @@ img {
 }
 /***** ABOUT *****/
 #about .full-width {
-    padding: 25px 0;
+    padding: 25px 0 10px 0;
 }
 #about h2 {
     float: left;
     font-family: 'Montserrat', Helvetica, Ariel, sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 15px;
     color: #77a466;
     padding: 0px 0px 0px 25px;
     text-transform: uppercase;
@@ -70,22 +75,21 @@ img {
 }
 /*****MAIN - SPECIALS, REVIEWS, CONTACT*****/
 #main .specials {
-    width: 399px;
+    width: 32%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000000;
-    border-left: 1px solid #ffffff;
-    padding: 0px 0px 32px 25px;
+    padding: 0px 0px 32px 0px;
     float: left;
 }
 #main .reviews {
-    width: 399px;
+    width: 32%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     float: left;
 }
 #main .contact {
-    width: 399px;
+    width: 32%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
@@ -99,7 +103,7 @@ img {
     text-transform: uppercase;
     text-align: left;
     width: 190px;
-    padding: 0px 0 0px 25px;
+    padding: 0px 0px 0px 25px;
 }
 #main p {
     font-family: 'Montserrat', Helvetica, Ariel, sans-serif;
@@ -113,6 +117,7 @@ img {
 }
 /*****FOOTER*****/
 #contact .full-width {
+    clear:both;
     padding: 15px 0;
     text-align: center;
 }
