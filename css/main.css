@@ -16,8 +16,9 @@ body{
 }
 .triple-box {
     width: 1150px;
-    margin: auto;
-
+    margin: 0 auto;
+    overflow: auto;
+ 
 }
 
 /*****HEADER*****/
@@ -49,12 +50,12 @@ nav ul li a {
     padding-left: 10px;
 }
 img {
-    padding: 0 25px 0px 25px;
+    padding: 35px 25px 15px 25px;
     max-width: 1150px;
-}
+    }
 /***** ABOUT *****/
 #about .full-width {
-    padding: 25px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 #about h2 {
     float: left;
@@ -75,29 +76,28 @@ img {
 }
 /*****MAIN - SPECIALS, REVIEWS, CONTACT*****/
 #main .specials {
-    width: 32%;
+    width: 33%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000000;
-    padding: 0px 0px 32px 0px;
-    float: left;
+    padding: 0px 0px 17px 0px;
+    float:left;
 }
 #main .reviews {
-    width: 32%;
+    width: 33%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
-    float: left;
+    float:left;
 }
-#main .contact {
-    width: 32%;
+#main .address {
+    width: 33%;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
     padding: 0px 0px 60px 0px;
     float: left;
 }
-
-#main h3 {
+.reviews h3, .address h3  {
     font-size: 14px;
     line-height: 32px;
     text-transform: uppercase;
@@ -105,15 +105,28 @@ img {
     width: 190px;
     padding: 0px 0px 0px 25px;
 }
-#main p {
+.reviews p, .address p   {
     font-family: 'Montserrat', Helvetica, Ariel, sans-serif;
     font-size: 14px;
     line-height: 30px;
     padding: 0 25px;
     text-align: left;
 }
-#main p span {
+.specials p span {
     color: #77a466;
+    font-family: 'Montserrat', Helvetica, Ariel, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    padding: 0px 25px 0px 0px;
+}
+.specials h3 span {
+    padding: 0px 25px 0px 0px;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 190px;
 }
 /*****FOOTER*****/
 #contact .full-width {
